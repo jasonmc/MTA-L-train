@@ -14,8 +14,8 @@ def getFeedMessage():
 
 
 def getTrain(feedMessage, i):
-    return list((x.stop_id, datetime.datetime.fromtimestamp(x.departure.time))
-                for x in feedMessage.entity[i].trip_update.stop_time_update)
+    return ((x.stop_id, datetime.datetime.fromtimestamp(x.departure.time))
+            for x in feedMessage.entity[i].trip_update.stop_time_update)
 
 
 def timesForStop(feedMessage, stopId):
