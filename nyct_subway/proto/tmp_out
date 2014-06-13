@@ -1,0 +1,3734 @@
+header {
+  gtfs_realtime_version: "1.0"
+  incrementality: FULL_DATASET
+  timestamp: 1392005459
+  [nyct_feed_header] {
+    nyct_subway_version: "1.0"
+    trip_replacement_period {
+      route_id: "L"
+      replacement_period {
+        end: 1392007259
+      }
+    }
+  }
+}
+entity {
+  id: "1"
+  trip_update {
+    trip {
+      trip_id: "136200_L..S"
+      start_date: "20140209"
+      route_id: "L"
+      [nyct_trip_descriptor] {
+        train_id: "0L 2242 8AV/RPY"
+        is_assigned: true
+        direction: SOUTH
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005504
+      }
+      departure {
+        time: 1392005534
+      }
+      stop_id: "L22S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005559
+      }
+      departure {
+        time: 1392005589
+      }
+      stop_id: "L24S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005649
+      }
+      departure {
+        time: 1392005679
+      }
+      stop_id: "L25S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005709
+      }
+      departure {
+        time: 1392005739
+      }
+      stop_id: "L26S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005799
+      }
+      departure {
+        time: 1392005829
+      }
+      stop_id: "L27S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005919
+      }
+      departure {
+        time: 1392005949
+      }
+      stop_id: "L28S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005979
+      }
+      stop_id: "L29S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+  }
+}
+entity {
+  id: "2"
+  vehicle {
+    trip {
+      trip_id: "136200_L..S"
+      start_date: "20140209"
+      route_id: "L"
+      [nyct_trip_descriptor] {
+        train_id: "0L 2242 8AV/RPY"
+        is_assigned: true
+        direction: SOUTH
+      }
+    }
+    current_stop_sequence: 17
+    current_status: STOPPED_AT
+    timestamp: 1392005383
+  }
+}
+entity {
+  id: "3"
+  trip_update {
+    trip {
+      trip_id: "136250_L..N"
+      start_date: "20140209"
+      route_id: "L"
+      [nyct_trip_descriptor] {
+        train_id: "0L 2242+RPY/8AV"
+        is_assigned: true
+        direction: NORTH
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005559
+      }
+      departure {
+        time: 1392005589
+      }
+      stop_id: "L06N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005619
+      }
+      departure {
+        time: 1392005649
+      }
+      stop_id: "L05N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005889
+      }
+      departure {
+        time: 1392005919
+      }
+      stop_id: "L03N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005979
+      }
+      departure {
+        time: 1392006009
+      }
+      stop_id: "L02N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006129
+      }
+      stop_id: "L01N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+  }
+}
+entity {
+  id: "4"
+  vehicle {
+    trip {
+      trip_id: "136250_L..N"
+      start_date: "20140209"
+      route_id: "L"
+      [nyct_trip_descriptor] {
+        train_id: "0L 2242+RPY/8AV"
+        is_assigned: true
+        direction: NORTH
+      }
+    }
+    current_stop_sequence: 19
+    current_status: IN_TRANSIT_TO
+    timestamp: 1392005458
+  }
+}
+entity {
+  id: "5"
+  trip_update {
+    trip {
+      trip_id: "137000_L..S"
+      start_date: "20140209"
+      route_id: "L"
+      [nyct_trip_descriptor] {
+        train_id: "0L 2250 8AV/RPY"
+        is_assigned: true
+        direction: SOUTH
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005491
+      }
+      departure {
+        time: 1392005521
+      }
+      stop_id: "L14S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005608
+      }
+      departure {
+        time: 1392005638
+      }
+      stop_id: "L15S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005698
+      }
+      departure {
+        time: 1392005728
+      }
+      stop_id: "L16S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005908
+      }
+      departure {
+        time: 1392005938
+      }
+      stop_id: "L17S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005998
+      }
+      departure {
+        time: 1392006028
+      }
+      stop_id: "L19S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006118
+      }
+      departure {
+        time: 1392006148
+      }
+      stop_id: "L20S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006208
+      }
+      departure {
+        time: 1392006238
+      }
+      stop_id: "L21S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006388
+      }
+      departure {
+        time: 1392006418
+      }
+      stop_id: "L22S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006448
+      }
+      departure {
+        time: 1392006478
+      }
+      stop_id: "L24S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006538
+      }
+      departure {
+        time: 1392006568
+      }
+      stop_id: "L25S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006598
+      }
+      departure {
+        time: 1392006628
+      }
+      stop_id: "L26S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006688
+      }
+      departure {
+        time: 1392006718
+      }
+      stop_id: "L27S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006808
+      }
+      departure {
+        time: 1392006838
+      }
+      stop_id: "L28S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006868
+      }
+      stop_id: "L29S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+  }
+}
+entity {
+  id: "6"
+  vehicle {
+    trip {
+      trip_id: "137000_L..S"
+      start_date: "20140209"
+      route_id: "L"
+      [nyct_trip_descriptor] {
+        train_id: "0L 2250 8AV/RPY"
+        is_assigned: true
+        direction: SOUTH
+      }
+    }
+    current_stop_sequence: 10
+    current_status: STOPPED_AT
+    timestamp: 1392005458
+  }
+}
+entity {
+  id: "7"
+  trip_update {
+    trip {
+      trip_id: "137250_L..N"
+      start_date: "20140209"
+      route_id: "L"
+      [nyct_trip_descriptor] {
+        train_id: "0L 2252+RPY/8AV"
+        is_assigned: true
+        direction: NORTH
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005540
+      }
+      departure {
+        time: 1392005570
+      }
+      stop_id: "L16N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005630
+      }
+      departure {
+        time: 1392005660
+      }
+      stop_id: "L15N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005750
+      }
+      departure {
+        time: 1392005780
+      }
+      stop_id: "L14N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005840
+      }
+      departure {
+        time: 1392005870
+      }
+      stop_id: "L13N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005900
+      }
+      departure {
+        time: 1392005930
+      }
+      stop_id: "L12N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005990
+      }
+      departure {
+        time: 1392006020
+      }
+      stop_id: "L11N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006110
+      }
+      departure {
+        time: 1392006140
+      }
+      stop_id: "L10N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006200
+      }
+      departure {
+        time: 1392006230
+      }
+      stop_id: "L08N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006440
+      }
+      departure {
+        time: 1392006470
+      }
+      stop_id: "L06N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006500
+      }
+      departure {
+        time: 1392006530
+      }
+      stop_id: "L05N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006770
+      }
+      departure {
+        time: 1392006800
+      }
+      stop_id: "L03N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006860
+      }
+      departure {
+        time: 1392006890
+      }
+      stop_id: "L02N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007010
+      }
+      stop_id: "L01N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+  }
+}
+entity {
+  id: "8"
+  vehicle {
+    trip {
+      trip_id: "137250_L..N"
+      start_date: "20140209"
+      route_id: "L"
+      [nyct_trip_descriptor] {
+        train_id: "0L 2252+RPY/8AV"
+        is_assigned: true
+        direction: NORTH
+      }
+    }
+    current_stop_sequence: 11
+    current_status: IN_TRANSIT_TO
+    timestamp: 1392005458
+  }
+}
+entity {
+  id: "9"
+  trip_update {
+    trip {
+      trip_id: "138000_L..S"
+      start_date: "20140209"
+      route_id: "L"
+      [nyct_trip_descriptor] {
+        train_id: "0L 2300 8AV/RPY"
+        is_assigned: true
+        direction: SOUTH
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005577
+      }
+      departure {
+        time: 1392005607
+      }
+      stop_id: "L10S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005573
+      }
+      departure {
+        time: 1392005603
+      }
+      stop_id: "L11S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005663
+      }
+      departure {
+        time: 1392005693
+      }
+      stop_id: "L12S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005723
+      }
+      departure {
+        time: 1392005753
+      }
+      stop_id: "L13S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005843
+      }
+      departure {
+        time: 1392005873
+      }
+      stop_id: "L14S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005963
+      }
+      departure {
+        time: 1392005993
+      }
+      stop_id: "L15S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006053
+      }
+      departure {
+        time: 1392006083
+      }
+      stop_id: "L16S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006263
+      }
+      departure {
+        time: 1392006293
+      }
+      stop_id: "L17S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006353
+      }
+      departure {
+        time: 1392006383
+      }
+      stop_id: "L19S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006473
+      }
+      departure {
+        time: 1392006503
+      }
+      stop_id: "L20S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006563
+      }
+      departure {
+        time: 1392006593
+      }
+      stop_id: "L21S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006743
+      }
+      departure {
+        time: 1392006773
+      }
+      stop_id: "L22S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006803
+      }
+      departure {
+        time: 1392006833
+      }
+      stop_id: "L24S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006893
+      }
+      departure {
+        time: 1392006923
+      }
+      stop_id: "L25S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006953
+      }
+      departure {
+        time: 1392006983
+      }
+      stop_id: "L26S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007043
+      }
+      departure {
+        time: 1392007073
+      }
+      stop_id: "L27S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007163
+      }
+      departure {
+        time: 1392007193
+      }
+      stop_id: "L28S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007223
+      }
+      stop_id: "L29S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+  }
+}
+entity {
+  id: "10"
+  vehicle {
+    trip {
+      trip_id: "138000_L..S"
+      start_date: "20140209"
+      route_id: "L"
+      [nyct_trip_descriptor] {
+        train_id: "0L 2300 8AV/RPY"
+        is_assigned: true
+        direction: SOUTH
+      }
+    }
+    current_stop_sequence: 6
+    current_status: STOPPED_AT
+    timestamp: 1392005443
+  }
+}
+entity {
+  id: "11"
+  trip_update {
+    trip {
+      trip_id: "138250_L..N"
+      start_date: "20140209"
+      route_id: "L"
+      [nyct_trip_descriptor] {
+        train_id: "0L 2302+RPY/8AV"
+        is_assigned: true
+        direction: NORTH
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005443
+      }
+      departure {
+        time: 1392005473
+      }
+      stop_id: "L24N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005535
+      }
+      departure {
+        time: 1392005565
+      }
+      stop_id: "L22N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005627
+      }
+      departure {
+        time: 1392005657
+      }
+      stop_id: "L21N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005687
+      }
+      departure {
+        time: 1392005717
+      }
+      stop_id: "L20N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005807
+      }
+      departure {
+        time: 1392005837
+      }
+      stop_id: "L19N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005957
+      }
+      departure {
+        time: 1392005987
+      }
+      stop_id: "L17N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006047
+      }
+      departure {
+        time: 1392006077
+      }
+      stop_id: "L16N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006137
+      }
+      departure {
+        time: 1392006167
+      }
+      stop_id: "L15N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006257
+      }
+      departure {
+        time: 1392006287
+      }
+      stop_id: "L14N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006347
+      }
+      departure {
+        time: 1392006377
+      }
+      stop_id: "L13N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006407
+      }
+      departure {
+        time: 1392006437
+      }
+      stop_id: "L12N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006497
+      }
+      departure {
+        time: 1392006527
+      }
+      stop_id: "L11N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006617
+      }
+      departure {
+        time: 1392006647
+      }
+      stop_id: "L10N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006707
+      }
+      departure {
+        time: 1392006737
+      }
+      stop_id: "L08N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006947
+      }
+      departure {
+        time: 1392006977
+      }
+      stop_id: "L06N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007007
+      }
+      departure {
+        time: 1392007037
+      }
+      stop_id: "L05N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007277
+      }
+      departure {
+        time: 1392007307
+      }
+      stop_id: "L03N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007367
+      }
+      departure {
+        time: 1392007397
+      }
+      stop_id: "L02N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007517
+      }
+      stop_id: "L01N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+  }
+}
+entity {
+  id: "12"
+  vehicle {
+    trip {
+      trip_id: "138250_L..N"
+      start_date: "20140209"
+      route_id: "L"
+      [nyct_trip_descriptor] {
+        train_id: "0L 2302+RPY/8AV"
+        is_assigned: true
+        direction: NORTH
+      }
+    }
+    current_stop_sequence: 5
+    current_status: STOPPED_AT
+    timestamp: 1392005443
+  }
+}
+entity {
+  id: "13"
+  trip_update {
+    trip {
+      trip_id: "139000_L..S"
+      start_date: "20140209"
+      route_id: "L"
+      [nyct_trip_descriptor] {
+        train_id: "0L 2310 8AV/RPY"
+        is_assigned: true
+        direction: SOUTH
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005460
+      }
+      departure {
+        time: 1392005490
+      }
+      stop_id: "L02S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005584
+      }
+      departure {
+        time: 1392005614
+      }
+      stop_id: "L03S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005644
+      }
+      departure {
+        time: 1392005674
+      }
+      stop_id: "L05S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005704
+      }
+      departure {
+        time: 1392005734
+      }
+      stop_id: "L06S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005944
+      }
+      departure {
+        time: 1392005974
+      }
+      stop_id: "L08S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006094
+      }
+      departure {
+        time: 1392006124
+      }
+      stop_id: "L10S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006154
+      }
+      departure {
+        time: 1392006184
+      }
+      stop_id: "L11S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006244
+      }
+      departure {
+        time: 1392006274
+      }
+      stop_id: "L12S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006304
+      }
+      departure {
+        time: 1392006334
+      }
+      stop_id: "L13S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006424
+      }
+      departure {
+        time: 1392006454
+      }
+      stop_id: "L14S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006544
+      }
+      departure {
+        time: 1392006574
+      }
+      stop_id: "L15S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006634
+      }
+      departure {
+        time: 1392006664
+      }
+      stop_id: "L16S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006844
+      }
+      departure {
+        time: 1392006874
+      }
+      stop_id: "L17S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006934
+      }
+      departure {
+        time: 1392006964
+      }
+      stop_id: "L19S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007054
+      }
+      departure {
+        time: 1392007084
+      }
+      stop_id: "L20S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007144
+      }
+      departure {
+        time: 1392007174
+      }
+      stop_id: "L21S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007324
+      }
+      departure {
+        time: 1392007354
+      }
+      stop_id: "L22S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007384
+      }
+      departure {
+        time: 1392007414
+      }
+      stop_id: "L24S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007474
+      }
+      departure {
+        time: 1392007504
+      }
+      stop_id: "L25S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007534
+      }
+      departure {
+        time: 1392007564
+      }
+      stop_id: "L26S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007624
+      }
+      departure {
+        time: 1392007654
+      }
+      stop_id: "L27S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007744
+      }
+      departure {
+        time: 1392007774
+      }
+      stop_id: "L28S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007804
+      }
+      stop_id: "L29S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+  }
+}
+entity {
+  id: "14"
+  vehicle {
+    trip {
+      trip_id: "139000_L..S"
+      start_date: "20140209"
+      route_id: "L"
+      [nyct_trip_descriptor] {
+        train_id: "0L 2310 8AV/RPY"
+        is_assigned: true
+        direction: SOUTH
+      }
+    }
+    current_stop_sequence: 1
+    current_status: STOPPED_AT
+    timestamp: 1392005443
+  }
+}
+entity {
+  id: "15"
+  trip_update {
+    trip {
+      trip_id: "139300_L..N"
+      start_date: "20140209"
+      route_id: "L"
+      [nyct_trip_descriptor] {
+        train_id: "0L 2313 RPY/8AV"
+        is_assigned: true
+        direction: NORTH
+      }
+    }
+    stop_time_update {
+      departure {
+        time: 1392005580
+      }
+      stop_id: "L29N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005640
+      }
+      departure {
+        time: 1392005670
+      }
+      stop_id: "L28N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005760
+      }
+      departure {
+        time: 1392005790
+      }
+      stop_id: "L27N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005850
+      }
+      departure {
+        time: 1392005880
+      }
+      stop_id: "L26N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392005910
+      }
+      departure {
+        time: 1392005940
+      }
+      stop_id: "L25N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006000
+      }
+      departure {
+        time: 1392006030
+      }
+      stop_id: "L24N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006090
+      }
+      departure {
+        time: 1392006120
+      }
+      stop_id: "L22N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006150
+      }
+      departure {
+        time: 1392006180
+      }
+      stop_id: "L21N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006210
+      }
+      departure {
+        time: 1392006240
+      }
+      stop_id: "L20N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006330
+      }
+      departure {
+        time: 1392006360
+      }
+      stop_id: "L19N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006480
+      }
+      departure {
+        time: 1392006510
+      }
+      stop_id: "L17N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006570
+      }
+      departure {
+        time: 1392006600
+      }
+      stop_id: "L16N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006660
+      }
+      departure {
+        time: 1392006690
+      }
+      stop_id: "L15N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006780
+      }
+      departure {
+        time: 1392006810
+      }
+      stop_id: "L14N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006870
+      }
+      departure {
+        time: 1392006900
+      }
+      stop_id: "L13N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006930
+      }
+      departure {
+        time: 1392006960
+      }
+      stop_id: "L12N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007020
+      }
+      departure {
+        time: 1392007050
+      }
+      stop_id: "L11N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007140
+      }
+      departure {
+        time: 1392007170
+      }
+      stop_id: "L10N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007230
+      }
+      departure {
+        time: 1392007260
+      }
+      stop_id: "L08N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007470
+      }
+      departure {
+        time: 1392007500
+      }
+      stop_id: "L06N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007530
+      }
+      departure {
+        time: 1392007560
+      }
+      stop_id: "L05N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007770
+      }
+      departure {
+        time: 1392007800
+      }
+      stop_id: "L03N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007860
+      }
+      departure {
+        time: 1392007890
+      }
+      stop_id: "L02N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008010
+      }
+      stop_id: "L01N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+  }
+}
+entity {
+  id: "16"
+  vehicle {
+    trip {
+      trip_id: "139300_L..N"
+      start_date: "20140209"
+      route_id: "L"
+      [nyct_trip_descriptor] {
+        train_id: "0L 2313 RPY/8AV"
+        is_assigned: true
+        direction: NORTH
+      }
+    }
+    current_stop_sequence: 0
+    current_status: STOPPED_AT
+    timestamp: 1392005445
+  }
+}
+entity {
+  id: "17"
+  trip_update {
+    trip {
+      trip_id: "140000_L..S"
+      start_date: "20140209"
+      route_id: "L"
+      [nyct_trip_descriptor] {
+        train_id: "0L 2320 8AV/RPY"
+        is_assigned: true
+        direction: SOUTH
+      }
+    }
+    stop_time_update {
+      departure {
+        time: 1392006000
+      }
+      stop_id: "L01S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006060
+      }
+      departure {
+        time: 1392006090
+      }
+      stop_id: "L02S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006180
+      }
+      departure {
+        time: 1392006210
+      }
+      stop_id: "L03S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006240
+      }
+      departure {
+        time: 1392006270
+      }
+      stop_id: "L05S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006300
+      }
+      departure {
+        time: 1392006330
+      }
+      stop_id: "L06S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006540
+      }
+      departure {
+        time: 1392006570
+      }
+      stop_id: "L08S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006690
+      }
+      departure {
+        time: 1392006720
+      }
+      stop_id: "L10S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006750
+      }
+      departure {
+        time: 1392006780
+      }
+      stop_id: "L11S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006840
+      }
+      departure {
+        time: 1392006870
+      }
+      stop_id: "L12S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006900
+      }
+      departure {
+        time: 1392006930
+      }
+      stop_id: "L13S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007020
+      }
+      departure {
+        time: 1392007050
+      }
+      stop_id: "L14S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007140
+      }
+      departure {
+        time: 1392007170
+      }
+      stop_id: "L15S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007230
+      }
+      departure {
+        time: 1392007260
+      }
+      stop_id: "L16S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007440
+      }
+      departure {
+        time: 1392007470
+      }
+      stop_id: "L17S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007530
+      }
+      departure {
+        time: 1392007560
+      }
+      stop_id: "L19S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007650
+      }
+      departure {
+        time: 1392007680
+      }
+      stop_id: "L20S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007740
+      }
+      departure {
+        time: 1392007770
+      }
+      stop_id: "L21S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007920
+      }
+      departure {
+        time: 1392007950
+      }
+      stop_id: "L22S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007980
+      }
+      departure {
+        time: 1392008010
+      }
+      stop_id: "L24S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008070
+      }
+      departure {
+        time: 1392008100
+      }
+      stop_id: "L25S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008130
+      }
+      departure {
+        time: 1392008160
+      }
+      stop_id: "L26S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008220
+      }
+      departure {
+        time: 1392008250
+      }
+      stop_id: "L27S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008340
+      }
+      departure {
+        time: 1392008370
+      }
+      stop_id: "L28S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008400
+      }
+      stop_id: "L29S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+  }
+}
+entity {
+  id: "18"
+  vehicle {
+    trip {
+      trip_id: "140000_L..S"
+      start_date: "20140209"
+      route_id: "L"
+      [nyct_trip_descriptor] {
+        train_id: "0L 2320 8AV/RPY"
+        is_assigned: true
+        direction: SOUTH
+      }
+    }
+    current_stop_sequence: 0
+    current_status: STOPPED_AT
+    timestamp: 1392005445
+  }
+}
+entity {
+  id: "19"
+  trip_update {
+    trip {
+      trip_id: "140300_L..N"
+      start_date: "20140209"
+      route_id: "L"
+      [nyct_trip_descriptor] {
+        train_id: "0L 2323 RPY/8AV"
+        is_assigned: true
+        direction: NORTH
+      }
+    }
+    stop_time_update {
+      departure {
+        time: 1392006180
+      }
+      stop_id: "L29N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006240
+      }
+      departure {
+        time: 1392006270
+      }
+      stop_id: "L28N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006360
+      }
+      departure {
+        time: 1392006390
+      }
+      stop_id: "L27N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006450
+      }
+      departure {
+        time: 1392006480
+      }
+      stop_id: "L26N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006510
+      }
+      departure {
+        time: 1392006540
+      }
+      stop_id: "L25N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006600
+      }
+      departure {
+        time: 1392006630
+      }
+      stop_id: "L24N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006690
+      }
+      departure {
+        time: 1392006720
+      }
+      stop_id: "L22N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006750
+      }
+      departure {
+        time: 1392006780
+      }
+      stop_id: "L21N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006810
+      }
+      departure {
+        time: 1392006840
+      }
+      stop_id: "L20N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006930
+      }
+      departure {
+        time: 1392006960
+      }
+      stop_id: "L19N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007080
+      }
+      departure {
+        time: 1392007110
+      }
+      stop_id: "L17N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007170
+      }
+      departure {
+        time: 1392007200
+      }
+      stop_id: "L16N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007260
+      }
+      departure {
+        time: 1392007290
+      }
+      stop_id: "L15N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007380
+      }
+      departure {
+        time: 1392007410
+      }
+      stop_id: "L14N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007470
+      }
+      departure {
+        time: 1392007500
+      }
+      stop_id: "L13N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007530
+      }
+      departure {
+        time: 1392007560
+      }
+      stop_id: "L12N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007620
+      }
+      departure {
+        time: 1392007650
+      }
+      stop_id: "L11N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007740
+      }
+      departure {
+        time: 1392007770
+      }
+      stop_id: "L10N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007830
+      }
+      departure {
+        time: 1392007860
+      }
+      stop_id: "L08N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008070
+      }
+      departure {
+        time: 1392008100
+      }
+      stop_id: "L06N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008130
+      }
+      departure {
+        time: 1392008160
+      }
+      stop_id: "L05N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008370
+      }
+      departure {
+        time: 1392008400
+      }
+      stop_id: "L03N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008460
+      }
+      departure {
+        time: 1392008490
+      }
+      stop_id: "L02N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008610
+      }
+      stop_id: "L01N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+  }
+}
+entity {
+  id: "20"
+  vehicle {
+    trip {
+      trip_id: "140300_L..N"
+      start_date: "20140209"
+      route_id: "L"
+      [nyct_trip_descriptor] {
+        train_id: "0L 2323 RPY/8AV"
+        is_assigned: true
+        direction: NORTH
+      }
+    }
+    current_stop_sequence: 0
+    current_status: STOPPED_AT
+    timestamp: 1392005445
+  }
+}
+entity {
+  id: "21"
+  trip_update {
+    trip {
+      trip_id: "141000_L..S"
+      start_date: "20140209"
+      route_id: "L"
+      [nyct_trip_descriptor] {
+        train_id: "0L 2330 8AV/RPY"
+        is_assigned: false
+        direction: SOUTH
+      }
+    }
+    stop_time_update {
+      departure {
+        time: 1392006600
+      }
+      stop_id: "L01S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006660
+      }
+      departure {
+        time: 1392006690
+      }
+      stop_id: "L02S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006780
+      }
+      departure {
+        time: 1392006810
+      }
+      stop_id: "L03S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006840
+      }
+      departure {
+        time: 1392006870
+      }
+      stop_id: "L05S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006900
+      }
+      departure {
+        time: 1392006930
+      }
+      stop_id: "L06S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007140
+      }
+      departure {
+        time: 1392007170
+      }
+      stop_id: "L08S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007290
+      }
+      departure {
+        time: 1392007320
+      }
+      stop_id: "L10S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007350
+      }
+      departure {
+        time: 1392007380
+      }
+      stop_id: "L11S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007440
+      }
+      departure {
+        time: 1392007470
+      }
+      stop_id: "L12S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007500
+      }
+      departure {
+        time: 1392007530
+      }
+      stop_id: "L13S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007620
+      }
+      departure {
+        time: 1392007650
+      }
+      stop_id: "L14S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007740
+      }
+      departure {
+        time: 1392007770
+      }
+      stop_id: "L15S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007830
+      }
+      departure {
+        time: 1392007860
+      }
+      stop_id: "L16S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008040
+      }
+      departure {
+        time: 1392008070
+      }
+      stop_id: "L17S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008130
+      }
+      departure {
+        time: 1392008160
+      }
+      stop_id: "L19S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008250
+      }
+      departure {
+        time: 1392008280
+      }
+      stop_id: "L20S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008340
+      }
+      departure {
+        time: 1392008370
+      }
+      stop_id: "L21S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008520
+      }
+      departure {
+        time: 1392008550
+      }
+      stop_id: "L22S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008580
+      }
+      departure {
+        time: 1392008610
+      }
+      stop_id: "L24S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008670
+      }
+      departure {
+        time: 1392008700
+      }
+      stop_id: "L25S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008730
+      }
+      departure {
+        time: 1392008760
+      }
+      stop_id: "L26S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008820
+      }
+      departure {
+        time: 1392008850
+      }
+      stop_id: "L27S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008940
+      }
+      departure {
+        time: 1392008970
+      }
+      stop_id: "L28S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392009000
+      }
+      stop_id: "L29S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+  }
+}
+entity {
+  id: "23"
+  trip_update {
+    trip {
+      trip_id: "141300_L..N"
+      start_date: "20140209"
+      route_id: "L"
+      [nyct_trip_descriptor] {
+        train_id: "0L 2333 RPY/8AV"
+        is_assigned: false
+        direction: NORTH
+      }
+    }
+    stop_time_update {
+      departure {
+        time: 1392006780
+      }
+      stop_id: "L29N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006840
+      }
+      departure {
+        time: 1392006870
+      }
+      stop_id: "L28N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392006960
+      }
+      departure {
+        time: 1392006990
+      }
+      stop_id: "L27N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007050
+      }
+      departure {
+        time: 1392007080
+      }
+      stop_id: "L26N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007110
+      }
+      departure {
+        time: 1392007140
+      }
+      stop_id: "L25N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007200
+      }
+      departure {
+        time: 1392007230
+      }
+      stop_id: "L24N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007290
+      }
+      departure {
+        time: 1392007320
+      }
+      stop_id: "L22N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007350
+      }
+      departure {
+        time: 1392007380
+      }
+      stop_id: "L21N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007410
+      }
+      departure {
+        time: 1392007440
+      }
+      stop_id: "L20N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007530
+      }
+      departure {
+        time: 1392007560
+      }
+      stop_id: "L19N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007680
+      }
+      departure {
+        time: 1392007710
+      }
+      stop_id: "L17N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007770
+      }
+      departure {
+        time: 1392007800
+      }
+      stop_id: "L16N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007860
+      }
+      departure {
+        time: 1392007890
+      }
+      stop_id: "L15N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007980
+      }
+      departure {
+        time: 1392008010
+      }
+      stop_id: "L14N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008070
+      }
+      departure {
+        time: 1392008100
+      }
+      stop_id: "L13N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008130
+      }
+      departure {
+        time: 1392008160
+      }
+      stop_id: "L12N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008220
+      }
+      departure {
+        time: 1392008250
+      }
+      stop_id: "L11N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008340
+      }
+      departure {
+        time: 1392008370
+      }
+      stop_id: "L10N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008430
+      }
+      departure {
+        time: 1392008460
+      }
+      stop_id: "L08N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008670
+      }
+      departure {
+        time: 1392008700
+      }
+      stop_id: "L06N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008730
+      }
+      departure {
+        time: 1392008760
+      }
+      stop_id: "L05N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008970
+      }
+      departure {
+        time: 1392009000
+      }
+      stop_id: "L03N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392009060
+      }
+      departure {
+        time: 1392009090
+      }
+      stop_id: "L02N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392009210
+      }
+      stop_id: "L01N"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "2"
+        actual_track: "2"
+      }
+    }
+  }
+}
+entity {
+  id: "25"
+  trip_update {
+    trip {
+      trip_id: "142000_L..S"
+      start_date: "20140209"
+      route_id: "L"
+      [nyct_trip_descriptor] {
+        train_id: "0L 2340 8AV/RPY"
+        is_assigned: false
+        direction: SOUTH
+      }
+    }
+    stop_time_update {
+      departure {
+        time: 1392007200
+      }
+      stop_id: "L01S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007260
+      }
+      departure {
+        time: 1392007290
+      }
+      stop_id: "L02S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007380
+      }
+      departure {
+        time: 1392007410
+      }
+      stop_id: "L03S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007440
+      }
+      departure {
+        time: 1392007470
+      }
+      stop_id: "L05S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007500
+      }
+      departure {
+        time: 1392007530
+      }
+      stop_id: "L06S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007740
+      }
+      departure {
+        time: 1392007770
+      }
+      stop_id: "L08S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007890
+      }
+      departure {
+        time: 1392007920
+      }
+      stop_id: "L10S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392007950
+      }
+      departure {
+        time: 1392007980
+      }
+      stop_id: "L11S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008040
+      }
+      departure {
+        time: 1392008070
+      }
+      stop_id: "L12S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008100
+      }
+      departure {
+        time: 1392008130
+      }
+      stop_id: "L13S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008220
+      }
+      departure {
+        time: 1392008250
+      }
+      stop_id: "L14S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008340
+      }
+      departure {
+        time: 1392008370
+      }
+      stop_id: "L15S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008430
+      }
+      departure {
+        time: 1392008460
+      }
+      stop_id: "L16S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008640
+      }
+      departure {
+        time: 1392008670
+      }
+      stop_id: "L17S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008730
+      }
+      departure {
+        time: 1392008760
+      }
+      stop_id: "L19S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008850
+      }
+      departure {
+        time: 1392008880
+      }
+      stop_id: "L20S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392008910
+      }
+      departure {
+        time: 1392008940
+      }
+      stop_id: "L21S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392009090
+      }
+      departure {
+        time: 1392009120
+      }
+      stop_id: "L22S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392009150
+      }
+      departure {
+        time: 1392009180
+      }
+      stop_id: "L24S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392009240
+      }
+      departure {
+        time: 1392009270
+      }
+      stop_id: "L25S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392009300
+      }
+      departure {
+        time: 1392009330
+      }
+      stop_id: "L26S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392009390
+      }
+      departure {
+        time: 1392009420
+      }
+      stop_id: "L27S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392009510
+      }
+      departure {
+        time: 1392009540
+      }
+      stop_id: "L28S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+    stop_time_update {
+      arrival {
+        time: 1392009570
+      }
+      stop_id: "L29S"
+      schedule_relationship: SCHEDULED
+      [nyct_stop_time_update] {
+        scheduled_track: "1"
+        actual_track: "1"
+      }
+    }
+  }
+}
