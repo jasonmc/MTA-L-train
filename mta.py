@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import gtfs_realtime_pb2
 import urllib2
 from datetime import datetime
